@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="visulisation">
+      <UniqueIdentifier>{fc2598e5-3943-4c72-a9fb-da40cee191c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world">
+      <UniqueIdentifier>{96215511-3160-4a9e-a463-2652d29a0a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{074fc256-8f4d-40fa-ba73-9360a92df0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{76ce8bdd-6256-4e59-ae7b-0af77e9be9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="states">
+      <UniqueIdentifier>{7f0ca99b-ca6a-4972-86e0-4f7ee2efc8f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>visulisation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>visulisation</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2D.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="worldEntity.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="Collectable.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyItemBase.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionState.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBar.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="Arsenal.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="MapState.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sprite.h">
+      <Filter>visulisation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>visulisation</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2D.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="worldEntity.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectable.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyItemBase.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionState.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBar.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="MapState.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="Arsenal.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
